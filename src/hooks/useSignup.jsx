@@ -11,7 +11,7 @@ const signup = async (email, password) => {
     setLoading(true)
     setError(null)
 
-    const res = await fetch('http://localhost:3000/signup', {
+    const res = await fetch('https://backend-fitness-auth.onrender.com/signup', {
         method: 'POST',
         body: JSON.stringify({email, password}),
         headers: {
