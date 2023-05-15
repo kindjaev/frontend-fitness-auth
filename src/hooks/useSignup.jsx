@@ -3,6 +3,7 @@ import {useState} from "react"
 import { useAuthContext } from './useAuthContext'
 
 function useSignup() {
+    
 const [error, setError] = useState(null)
 const [loading, setLoading] = useState(null)
 const {dispatch} = useAuthContext()

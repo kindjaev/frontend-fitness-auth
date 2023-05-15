@@ -5,11 +5,11 @@ import  {
   InputLabel,
   Input,
   FormControl,
-  Box,
   Stack,
   Typography
 } from '@mui/material'
-import useSignup from "../hooks/useSignUp"
+import useSignup from "../hooks/useSignup"
+
 
 const Signup = () => {
     const [email, setEmail] = useState('')
