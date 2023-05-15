@@ -33,7 +33,7 @@ function Exercises({ exercises, setExercises, bodyPart }) {
   };
 
   useEffect(() => {
-    const url = "https://backend-fitness-auth.onrender.com";
+    const url = "https://backend-fitness-auth.vercel.app";
   // GET ALL EXERCISES FROM SERVER 
     const fetchAllExercises = async () => {
       let allExercises = [];

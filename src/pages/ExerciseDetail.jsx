@@ -19,7 +19,7 @@ function ExerciseDetail() {
 
 
   useEffect(() => {
-    const url =  `http://localhost:3000/exercise/${id}`
+    const url = `https://backend-fitness-auth.vercel.app/exercise/${id}`
 
     const exerciseDetailFetch = async () => {
       // GET ALL DATA FROM EXERCISE WITH ID

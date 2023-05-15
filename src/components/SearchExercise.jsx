@@ -21,7 +21,7 @@ function SearchExercise({ setExercises, bodyPart, setBodyPart, themes }) {
   useEffect(() => {
     const fetchExercises = async () => {
       // const url = "http://localhost:3000/";
-      const url = "https://backend-fitness-auth.onrender.com";
+      const url = "https://backend-fitness-auth.vercel.app";
 
       // getting data from server
       const bodyPartsData = await fetchData(url, {
@@ -41,7 +41,7 @@ function SearchExercise({ setExercises, bodyPart, setBodyPart, themes }) {
   // SUBMIT SEARCH INPUT FORM 
   const handleSearch = async (bodyPartSearch) => {
     // const url = "http://localhost:3000";
-    const url = "https://backend-fitness-auth.onrender.com";
+    const url = "https://backend-fitness-auth.vercel.app";
 
     // if there is a body part or search input then get data from server
     if (search || bodyPartSearch) {
